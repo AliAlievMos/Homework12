@@ -7,6 +7,7 @@ public class main {
         new Thread(() -> {
 
                     supplier.supplier();
+            // количество кранов можно регулировать здесь
                     Crane.Crane();
                     Crane.Crane();
                     Sheeps.CreateSheeps();
